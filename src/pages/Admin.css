@@ -1,0 +1,34 @@
+.MuiDataGrid-columnHeaders{
+    color: #eca6c8!important;
+    font-weight: lighter!important;
+    font-size: small;
+    border-bottom: 5px dotted #f7d8e7 !important;
+}
+
+.MuiDataGrid-footerContainer{
+    color: #eca6c8!important;
+    font-weight: lighter!important;
+    font-size: small;
+    height: 12px;
+}
+
+.MuiTablePagination-displayedRows{
+    color: #eca6c8!important;
+    font-weight: lighter!important;
+    font-size: small;
+}
+
+.MuiDataGrid-virtualScrollerContent{
+    color: #eca6c8!important;
+    font-weight: lighter!important;
+    font-size: small;
+}
+
+.btn{
+    background-color: #eca6c8;
+    margin-top: 15px;
+}
+
+.container{
+    padding-top: 20px;
+}

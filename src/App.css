@@ -1,0 +1,285 @@
+.active{
+    background-color:  #ffcff8;
+    border-radius: 80%;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.header{
+    font-family: 'Pacifico', cursive;
+}
+
+.MuiOutlinedInput-notchedOutline {
+    border-color: #f5adc5 !important;
+}
+  
+.MuiFilledInput-root {
+    border-bottom: 1px solid #f5adc5 !important;
+}
+  
+.MuiInput-root {
+    border-bottom: 1px solid #f5adc5 !important;
+}
+
+ .MuiInputLabel-root {
+  color: #f5adc5 !important;
+}
+
+.createBlog{
+  margin: 0 auto;
+  max-width: 800px;
+  padding:36px;
+  color: #949494 !important;
+}
+.createBtn{
+  background-color:  #f5adc5 !important;
+  color: white !important;
+  text-align: center;
+  border: none;
+  width: 90px;
+  height:30px;
+  border-radius: 20px ;
+  margin-bottom: 16px;
+
+}
+
+.createLabels{
+  font-size: small !important;
+}
+
+.MuiButtonBase-root.MuiMenuItem-root{
+  color:#f5adc5;
+
+  
+
+}
+
+.MuiList-root{
+  background-color: rgb(254, 249, 252);
+  border: none !important;
+}
+
+.titleInput{
+  height: 33px !important;
+}
+
+.errorMsg{
+  color:#f5adc5;
+  font-size: small !important;
+
+}
+
+.img-thumbnail{
+  width: 40px !important;
+  height:40px !important;
+}
+
+.loader{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.alert {
+  color: #f5adc5 !important;
+  font-size: small !important;
+  margin-left: 10px !important;
+  border-radius: 20px !important;
+  height: 24px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center !important;
+}
+
+.btn-close{
+  padding-top: 0 !important;
+  font-size: small !important;
+}
+.MuiChip-icon{
+  color: #ffffff !important;
+}
+.css-1t1hkv5-MuiButtonBase-root-MuiChip-root{
+  margin: 6px !important;
+}
+
+.main-title{
+  color: #949494;
+  font-weight: lighter;
+  margin:15px;
+}
+
+.editor{
+  min-height: 300px;
+}
+
+.text-muted{
+  font-size: x-small;
+  font-style: italic;
+}
+
+.text-category{
+  font-size: small;
+  color: #a2a0a1;
+  font-weight: lighter;  
+}
+
+.author-text{
+  font-size: small;
+  font-weight: lighter;  
+  color: #e384a5;
+  margin-left: 1px;
+}
+
+.poster{
+  width: 100px;
+  height:200px;
+}
+
+.about{
+  margin-top: 69px;
+}
+
+.app{
+  margin-top: 68px;
+}
+
+.detailsPoint{
+  cursor: pointer;
+  color: #f5adc5;
+
+}
+
+.postcard-title{
+  color: #f5adc5;
+  font-weight: lighter;  
+
+  
+}
+
+.card-text{
+  font-weight: lighter;  
+
+}
+
+.details svg{
+  font-size: 2rem;
+  cursor: pointer;
+
+}
+.bannerkep{
+  display: flex;
+  flex:content;
+  flex-shrink: initial;
+  min-width: 280px;
+  max-width: 300px;
+  max-height: 200px;
+  min-height: 180px;
+}
+
+.blogpost{
+  margin-left: 5px;
+}
+
+.popularPosts{
+  font-weight: lighter;
+  font-size: 0.6rem;
+  padding: 16px;
+  padding-top: 40px;
+
+}
+
+
+
+.fathumbsup{
+  color: #72aee2;
+  font-weight: lighter;
+  font-size: smaller;
+}
+
+.avatar-thumbnail{
+  width: 88px !important;
+  height: 88px !important;
+  padding: 12px;
+  border-radius: 50%;
+
+}
+
+.btn-delete{
+  background-color: #dd2d65 !important;
+  font-size: small !important;
+  border-radius: 20px !important;
+  margin-bottom: 20px !important;
+  margin-left: 0px !important;
+}
+
+.updateProfile{
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 500px;
+}
+
+.choosefile{
+  max-width: 400px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 26px;
+}
+.uploadBtn{
+  background-color:  #f5adc5 !important;
+  color: white !important;
+  text-align: center;
+  border: none;
+  width: 90px;
+  height:30px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
+.updateProfile{
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  padding: 20px;
+  font-weight: lighter;
+  box-shadow: 1px 10px 10px #95a8be;
+  min-height: 400px;
+}
+
+.update-profile{
+  font-weight: lighter;
+  padding: 10px;
+}
+
+.notfound{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: 0 auto;
+  max-height: 300px;
+}
+
+.notfoundtext{
+  font-weight: lighter;
+  font-size: 3.4rem;
+}
+
+.card-body{
+  position:static;
+  min-width: auto;
+}
+
+@media (max-width:1050px){
+ .card-body{
+  font-size: smaller;
+ }
+ .poster{
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+ }
+}

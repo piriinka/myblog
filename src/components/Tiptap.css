@@ -1,0 +1,44 @@
+.textEditor{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.menuBar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 207, 229);
+    border: 1px solid rgb(255, 207, 229);
+}
+
+.menuBar button{
+    margin: 5px;
+    outline: none !important;
+    border: none !important;
+    background-color: rgb(255, 207, 229);
+    color: white;
+    font-size: small;
+
+}
+
+
+.ProseMirror{
+    padding: 10px;
+    min-height: 200px;
+    background-color: rgb(252, 244, 250);
+    font-size: small;
+}
+
+.ProseMirror:focus{
+    border: none;
+    outline:1px solid rgb(244, 205, 218);
+}
+
+button.is_active{
+    color: palevioletred;
+}
+
+ p{
+    margin: 0 !important;
+}

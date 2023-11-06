@@ -1,0 +1,40 @@
+.home{
+    display: flex;
+  
+  }
+  
+  .posts{
+    flex:1;
+    margin-right: 230px;
+
+
+  }
+  
+  .categ{
+    margin-top: 68px;
+    width: 220px;
+    position: fixed;
+    top:0;
+    right:0;
+    bottom: 0;
+    color: rgb(143, 143, 143);
+  }
+  
+  
+  
+  @media (max-width:600px){
+    .home{
+      flex-direction: column; 
+    }
+    .categ{
+      margin-top: 20px;
+        position: static;
+        width: 100%;
+    }
+    
+    .posts{
+        display: flex;
+        margin-right: 0;
+    }
+  }
+
