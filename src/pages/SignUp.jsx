@@ -27,7 +27,6 @@ export const SignUp=()=> {
   };
 console.log(user);
   return (
-  <div className='signupContainer'>
     <ThemeProvider theme={defaultTheme}>
       <Container component="main" maxWidth="xs" sx={{boxShadow:'0 0 15px #f5adc5'}}>
         <CssBaseline />
@@ -89,6 +88,6 @@ console.log(user);
           </Box>
         </Box>
       </Container>
-    </ThemeProvider></div>
+    </ThemeProvider>
   );
 }
