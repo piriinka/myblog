@@ -27,6 +27,7 @@ export const SignUp=()=> {
   };
 console.log(user);
   return (
+  <div className='signupContainer'>
     <ThemeProvider theme={defaultTheme}>
       <Container component="main" maxWidth="xs" sx={{boxShadow:'0 0 15px #f5adc5'}}>
         <CssBaseline />
@@ -38,7 +39,8 @@ console.log(user);
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: '#f5adc5' }}>
+          <Avatar sx={{ m: 1, bgcolor: '#f5adc5',
+}}>
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5"  sx={{color: '#f5adc5'}}>
@@ -87,6 +89,6 @@ console.log(user);
           </Box>
         </Box>
       </Container>
-    </ThemeProvider>
+    </ThemeProvider></div>
   );
 }
