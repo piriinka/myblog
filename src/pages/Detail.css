@@ -19,13 +19,17 @@
     padding-top: 30px;
     padding-bottom: 20px;
     font-weight: lighter;
+    font-size: 16px;
     color: pink;
+    margin-top: 20px;
 
 }
 
 .post{
     color: rgb(162, 162, 162);
     font-size: smaller;
+    margin: 10px;
+    padding: 10px;
 }
 
 .trash{
@@ -55,4 +59,45 @@
     width: auto;
     height: auto;
     cursor: pointer;
+}
+
+.comment-container{
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    background-color: #cce2f4;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+}
+
+#name,#email{
+    margin: 10px;
+}
+.comment-title{
+    color: rgb(255, 255, 255);
+}
+
+
+.post-card{
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 5px 20px rgb(188, 190, 191);
+}
+
+.submit{
+    background-color: #8badc9;
+    color: white;
+    width: 50px;
+    border-radius: 5px;
+    border: none;
+}
+
+.alert{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(229, 155, 179);
+    color: white;
+    display: none;
 }

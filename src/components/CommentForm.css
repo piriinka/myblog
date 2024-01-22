@@ -1,0 +1,25 @@
+.commentsContainer{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 14px;
+}
+
+.comments-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.username{
+    font-weight: bolder;
+    padding: 4px;
+}
+
+.pcomment{
+    padding: 4px;
+}

@@ -14,7 +14,7 @@ export const Posts = ({selectedCategories}) => {
  //console.log(posts);
   return (
     <div className='blogpost'>
-        <h2 className='main-title text-center '>Daily blogs</h2>
+        <h2 className='main-title text-center '>Daily posts</h2>
         {posts.map(obj=>(<PostCard key={obj.id} {...obj}/>))}
     </div>
   )
