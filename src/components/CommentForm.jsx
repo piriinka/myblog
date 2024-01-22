@@ -49,8 +49,8 @@ export const CommentForm = ({ postId }) => {
          <div className="commentsContainer">
         {comments.map((comment) => (
           <div key={comment.id}>
-            <p className='username'>{comment.username}</p>
-            <p className='pcomment'>{comment.text}</p>
+            <p className='username'>{comments.name}</p>
+            <p className='pcomment'>{comments.comment}</p>
           </div>
         ))}
       </div>
