@@ -13,6 +13,7 @@
     background-color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 10px;
+    margin: 10px;
 
 }
 .username{
@@ -22,4 +23,8 @@
 
 .pcomment{
     padding: 4px;
+}
+
+.comment{
+    margin: 10px;
 }

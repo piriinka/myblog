@@ -1,32 +1,18 @@
 import { auth, db, storage } from "./firebaseApp";
-import { doc, getDoc, updateDoc, serverTimestamp, onSnapshot } from 'firebase/firestore';
+import { doc, serverTimestamp, onSnapshot, collection, addDoc, query, where } from 'firebase/firestore';
 
-// Function to add a comment to a post
 export const addComment = async (postId, commentData) => {
-  const postRef = doc(db, 'posts', postId);
-
-  try {
-    const postSnap = await getDoc(postRef);
-
-    if (postSnap.exists()) {
-      const comments = postSnap.data().comments || [];
-      const updatedComments = [...comments, { ...commentData, timestamp: serverTimestamp() }];
-
-      await updateDoc(postRef, { comments: updatedComments });
-    } else {
-      console.log('Post does not exist.');
-    }
-  } catch (err) {
-    console.error(err);
-  }
+  const commentsRef = collection(db, 'comments');
+  const newItem = { ...commentData, postId, timestamp: serverTimestamp() };
+  await addDoc(commentsRef, newItem);
 }
 
-// Function to read comments for a post
 export const readComments = async (postId, setComments) => {
-  const postRef = doc(db, 'posts', postId);
+  const commentsRef = collection(db, 'comments');
+  const q = query(commentsRef, where('postId', '==', postId));
 
-  const unsubscribe = onSnapshot(postRef, (snapshot) => {
-    const comments = snapshot.data()?.comments || [];
+  const unsubscribe = onSnapshot(q, (snapshot) => {
+    const comments = snapshot.docs.map(doc => doc.data());
     setComments(comments);
   });
 
